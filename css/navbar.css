@@ -1,0 +1,64 @@
+/*   Public   */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* private */
+.navbar {
+  background-color: black;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.navlist {
+  float: right;
+}
+
+.navlist ul {
+  list-style-type: none;
+}
+
+.navlist ul li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.portfolio {
+  background-color: rgb(249, 228, 145);
+  text-align: center;
+}
+
+.portfolio-item {
+  width: 33.33%;
+  float: left;
+  padding-right: 20px;
+}
+
+.portfolio img {
+  display: block;
+  width: 100%;
+}
